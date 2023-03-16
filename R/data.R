@@ -12,7 +12,7 @@ work <- tribble(
   "Freelancer", "Automatização de workflow", "Março", 2022, "Junho", 2022, "São Paulo - SP", "Criação de um blog para plublicação de comunicados internos, dúvidas frequentes e tutoriais.",
   
   
-  "Freelancer", "Projétos de automação", "Agosto", 2020, "Dezembro", 2020, "São Paulo - SP", "Linguagens e tecnologias usadas --- Arduino, Arduino IDE (\"C++\"), Diferentes Sensores",
+  "Freelancer", "Projétos de automação", "Agosto", 2020, "Dezembro", 2020, "São Paulo - SP", "Linguagens e tecnologias usadas --- Arduino (C++), Diferentes Sensores",
   "Freelancer", "Projétos de automação", "Agosto", 2020, "Dezembro", 2020, "São Paulo - SP", "Criação e implementação de sistemas estilo Garduino.",
   
   "Geofísico Júnior", "Geodecon Geologia e Geofísica Ltda", "Janeiro", 2016, "Outubro", 2016, "Curitiba - PR", "Métodos aplicados --- Eletrorresistividade, Magnetometria, Sísmica rasa",
@@ -28,7 +28,7 @@ work <- tribble(
   "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2011, "", 2011, "São Paulo - SP", "Áreas de atuação --- Investigação de passivos e remediação ambiental",
   "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2011, "", 2011, "São Paulo - SP", "Elaboração de relatórios técnicos para orgãos ambientais.",
   "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2011, "", 2011, "São Paulo - SP", "Elaboração de croquis e mapas de plumas de contaminação.",
-  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2011, "", 2011, "São Paulo - SP", "Responsável pela gestão do fluxo de coleta e envio de amostras de solo e água dos projetos e recebimento de relatórios químicos.",
+  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2011, "", 2011, "São Paulo - SP", "Responsável pela gestão do fluxo de trabalho relacionado as amostras de água e solo dos projetos.",
   
   "Técnico de campo II", "Ecotest Tecnologia Ambiental Ltda", "", 2009, "", 2010, "São Paulo - SP", "Montagem de kits de amostragem para água e solo. Controle de qualidade e registro das amostras coletadas",
   "Técnico de campo II", "Ecotest Tecnologia Ambiental Ltda", "", 2009, "", 2010, "São Paulo - SP", "Controle do envio das amostras para análise e recebimento dos relatórios químicos",
@@ -43,30 +43,30 @@ work <- tribble(
 
 research <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Tecnologias e ferramentas --- R/Rstudio",
-  "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Dados --- Modelo IGRF-12, Modelo ERSST-V5, Índices de Atividade Solar",
-  "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Key words --- Séries Temporais, Análise espectral, Wavelet coherence, Análise geoespacial, Campo Magnético Terrestre, Raios Cosmicos Galácticos",
-  "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Estudo sobre o impacto dos raios cósmicos galácticos na dinâmica de sistemas de circulação atmosférica sobre o Atlântico Sul",
+  # "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Tecnologias e ferramentas --- R/Rstudio",
+  # "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Dados --- Modelo IGRF-12, Modelo ERSST-V5, Índices de Atividade Solar",
+  # "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Key words --- Séries Temporais, Análise espectral, Wavelet coherence, Análise geoespacial, Campo Magnético Terrestre, Raios Cosmicos Galácticos",
+  # "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Estudo sobre o impacto dos raios cósmicos galácticos na dinâmica de sistemas de circulação atmosférica sobre o Atlântico Sul",
 
   
-  "ATMOSRAD", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Tecnologia e ferramentas --- Sensores e softwares comerciais, Arduino/IDE,  R/Rstudio",
+  "ATMOSRAD", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Tecnologia e ferramentas --- Sensores e softwares comerciais, Arduino,  R/Rstudio",
   "ATMOSRAD", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Medidas de radiação ionizante e não ionizante no campus do ITA em São José dos Campos, SP",
   "ATMOSRAD", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Estudos sobre a correlação entre radiações ionizantes (raios X, raios gama, partículas carregadas, múons, campo elétrico) e fenômenos meteorológicos (pressão, umidade, temperatura, intensidade de chuva, nebulosidade e altitude média das nuvens) ",
-
-  "Compact Muon", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Tecnologias e ferramentas --- Arduino/IDE, R/Rstudio",  
-  "Compact Muon", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Construção de detectores de múons de baixo custo para uso educacional baseado no uso de cintiladores de estado sólido.",
-  "Compact Muon", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Validação dos dados obtidos, análise da correlação entre outras medidas de radiações ionizantes e parâmetros meteorológicos.",
+# 
+#   "Compact Muon", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Tecnologias e ferramentas --- Arduino/IDE, R/Rstudio",  
+#   "Compact Muon", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Construção de detectores de múons de baixo custo para uso educacional baseado no uso de cintiladores de estado sólido.",
+#   "Compact Muon", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Validação dos dados obtidos, análise da correlação entre outras medidas de radiações ionizantes e parâmetros meteorológicos.",
   
   "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "São Paulo - SP", "Tecnologia e ferramentas --- Bash, GMT, Sismógrafo Geode (Geometrics)",
   "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "São Paulo - SP", "Aplicação de levantamento sísmico de refração como suporte a obras de engenharia (Análise de estabilidade de taludes).",
-  "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "São Paulo - SP", "Criação de modelo sísmico de camadas (ondas p) e obtenção indireta das velocidades de ondas s através de métodos de inversão.",
+  "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "São Paulo - SP", "Criação de modelo sísmico de camadas (ondas p) e obtenção indireta das velocidades de ondas s, através de métodos de inversão.",
   "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "São Paulo - SP", "Obtenção de parâmetros geotécnicos através dos dados de ondas p e s.", 
   
 
-  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "São Paulo - SP", "Tecnologias e ferramentas --- MATLAB, GMT, modelo IGRF-12, Dados de estações metorológicas, índices de atividade solar",   
+  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "São Paulo - SP", "Tecnologias e ferramentas --- MATLAB, GMT",   
   "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "São Paulo - SP", "Dados --- Modelo IGRF-12, dados de temperatura e precipitação de estações meteorológicas (INMET), índices de atividade solar",   
   "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "São Paulo - SP", "Estudo sobre o impacto dos raios cósmicos galácticos sobre parâmetros climáticos na latitude de ~30°S",
-  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "São Paulo - SP", "Key words --- Séries Temporais, Análise espectral, Wavelet coherence, Análise geoespacial, Campo Magnético Terrestre, Raios Cosmicos Galácticos"
+  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "São Paulo - SP", "Key Words --- Séries Temporais, Análise Espectral, Wavelet Coherence, Análise Geoespacial, Campo Magnético Terrestre, Raios Cosmicos Galácticos"
    
 )
 
