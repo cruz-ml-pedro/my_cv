@@ -43,30 +43,21 @@ work <- tribble(
 
 research <- tribble(
   ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-  # "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Tecnologias e ferramentas --- R/Rstudio",
-  # "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Dados --- Modelo IGRF-12, Modelo ERSST-V5, Índices de Atividade Solar",
-  # "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Key words --- Séries Temporais, Análise espectral, Wavelet coherence, Análise geoespacial, Campo Magnético Terrestre, Raios Cosmicos Galácticos",
-  # "Aluno de Mestrado", "ITA CTE-F", "Julho", 2017, "Outubro", 2021, "São José dos Campo - SP", "Estudo sobre o impacto dos raios cósmicos galácticos na dinâmica de sistemas de circulação atmosférica sobre o Atlântico Sul",
 
-  
   "ATMOSRAD", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Tecnologia e ferramentas --- Sensores e softwares comerciais, Arduino,  R/Rstudio",
   "ATMOSRAD", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Medidas de radiação ionizante e não ionizante no campus do ITA em São José dos Campos, SP",
   "ATMOSRAD", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Estudos sobre a correlação entre radiações ionizantes (raios X, raios gama, partículas carregadas, múons, campo elétrico) e fenômenos meteorológicos (pressão, umidade, temperatura, intensidade de chuva, nebulosidade e altitude média das nuvens) ",
-# 
-#   "Compact Muon", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Tecnologias e ferramentas --- Arduino/IDE, R/Rstudio",  
-#   "Compact Muon", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Construção de detectores de múons de baixo custo para uso educacional baseado no uso de cintiladores de estado sólido.",
-#   "Compact Muon", "ITA CTE-F", "Julho", 2017, "Outubro", 2019, "São José dos Campo - SP", "Validação dos dados obtidos, análise da correlação entre outras medidas de radiações ionizantes e parâmetros meteorológicos.",
-  
-  "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "São Paulo - SP", "Tecnologia e ferramentas --- Bash, GMT, Sismógrafo Geode (Geometrics)",
-  "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "São Paulo - SP", "Aplicação de levantamento sísmico de refração como suporte a obras de engenharia (Análise de estabilidade de taludes).",
-  "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "São Paulo - SP", "Criação de modelo sísmico de camadas (ondas p) e obtenção indireta das velocidades de ondas s, através de métodos de inversão.",
-  "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "São Paulo - SP", "Obtenção de parâmetros geotécnicos através dos dados de ondas p e s.", 
+
+  "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "Caçapava do Sul - RS", "Tecnologia e ferramentas --- Bash, GMT, Sismógrafo Geode (Geometrics)",
+  "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "Caçapava do Sul - RS", "Aplicação de levantamento sísmico de refração como suporte a obras de engenharia (Análise de estabilidade de taludes).",
+  "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "Caçapava do Sul - RS", "Criação de modelo sísmico de camadas (ondas p) e obtenção indireta das velocidades de ondas s, através de métodos de inversão.",
+  "Iniciação Científica", "Unipampa", "Agosto", 2014, "Dezembro", 2014, "Caçapava do Sul - RS", "Obtenção de parâmetros geotécnicos através dos dados de ondas p e s.", 
   
 
-  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "São Paulo - SP", "Tecnologias e ferramentas --- MATLAB, GMT",   
-  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "São Paulo - SP", "Dados --- Modelo IGRF-12, dados de temperatura e precipitação de estações meteorológicas (INMET), índices de atividade solar",   
-  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "São Paulo - SP", "Estudo sobre o impacto dos raios cósmicos galácticos sobre parâmetros climáticos na latitude de ~30°S",
-  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "São Paulo - SP", "Key Words --- Séries Temporais, Análise Espectral, Wavelet Coherence, Análise Geoespacial, Campo Magnético Terrestre, Raios Cosmicos Galácticos"
+  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "Caçapava do Sul - RS", "Tecnologias e ferramentas --- MATLAB, GMT",   
+  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "Caçapava do Sul - RS", "Dados --- Modelo IGRF-12, dados de temperatura e precipitação de estações meteorológicas (INMET), índices de atividade solar",   
+  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "Caçapava do Sul - RS", "Estudo sobre o impacto dos raios cósmicos galácticos sobre parâmetros climáticos na latitude de ~30°S",
+  "Iniciação Científica", "Unipampa", "Agosto", 2013, "Dezembro", 2015, "Caçapava do Sul - RS", "Key Words --- Séries Temporais, Análise Espectral, Wavelet Coherence, Análise Geoespacial, Campo Magnético Terrestre, Raios Cosmicos Galácticos"
    
 )
 
