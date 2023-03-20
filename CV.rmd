@@ -11,7 +11,7 @@ github: cruz-ml-pedro
 linkedin: pedro-lima-8a9356268
 #orcid: 0000-0002-2114-966X
 headcolor: 990000
-aboutme: " Durante o último ano tenho estudado linguagem R, e outras tecnologias, com foco em ciência de dados. Atualmente estou lendo Tidy Modeling with R, Functional Data Analysis with R and MATLAB e Docker in Action. Possuo formação na área de geociências e famialiaridade com séries temporais e dados geoespaciais."
+aboutme: " Durante o último ano tenho estudado linguagem R, e outras tecnologias, com foco em ciência de dados. Atualmente estou lendo Tidy Modeling with R, Functional Data Analysis with R and MATLAB e Docker in Action. Possuo formação na área de geociências e conhecimento em séries temporais e dados geoespaciais."
 docname: CV
 output: vitae::awesomecv
 ---
