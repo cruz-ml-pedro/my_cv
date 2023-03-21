@@ -24,11 +24,11 @@ work <- tribble(
   
   "Geofísico-Estágio", "Geodecon Geologia e Geofísica Ltda", "Junho", 2015, "Dezembro", 2015, "Curitiba - PR", "Aquisição e controle de qualidade dos dados geofísicos e topográficos.",
   
-  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2011, "", 2011, "São Paulo - SP", "Softwares usados --- Word, Excel, Surfer (Golden software), AutoCad",
-  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2011, "", 2011, "São Paulo - SP", "Áreas de atuação --- Investigação de passivos e remediação ambiental",
-  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2011, "", 2011, "São Paulo - SP", "Elaboração de relatórios técnicos para orgãos ambientais.",
-  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2011, "", 2011, "São Paulo - SP", "Elaboração de croquis e mapas de plumas de contaminação.",
-  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2011, "", 2011, "São Paulo - SP", "Responsável pela gestão do fluxo de trabalho relacionado as amostras de água e solo dos projetos.",
+  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2010, "", 2011, "São Paulo - SP", "Softwares usados --- Word, Excel, Surfer (Golden software), AutoCad",
+  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2010, "", 2011, "São Paulo - SP", "Áreas de atuação --- Investigação de passivos e remediação ambiental",
+  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2010, "", 2011, "São Paulo - SP", "Elaboração de relatórios técnicos para orgãos ambientais.",
+  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2010, "", 2011, "São Paulo - SP", "Elaboração de croquis e mapas de plumas de contaminação.",
+  "Analista Ambiental Trainee", "Ecotest Tecnologia Ambiental Ltda", "", 2010, "", 2011, "São Paulo - SP", "Responsável pela gestão do fluxo de trabalho relacionado as amostras de água e solo dos projetos.",
   
   "Técnico de campo II", "Ecotest Tecnologia Ambiental Ltda", "", 2009, "", 2010, "São Paulo - SP", "Montagem de kits de amostragem para água e solo. Controle de qualidade e registro das amostras coletadas",
   "Técnico de campo II", "Ecotest Tecnologia Ambiental Ltda", "", 2009, "", 2010, "São Paulo - SP", "Controle do envio das amostras para análise e recebimento dos relatórios químicos",
@@ -67,7 +67,7 @@ edu <- tribble(
   "Instituto Tecnológico de Aeronáutica - ITA", 2017, 2021, "Mestre em Ciências", "São José dos Campo - SP","Área de concentração - Física e Matemática Aplicadas",
   "Instituto Tecnológico de Aeronáutica - ITA", 2017, 2021, "Mestre em Ciências", "São José dos Campo - SP","Bolsista CAPES",
   "Instituto Tecnológico de Aeronáutica - ITA", 2017, 2021, "Mestre em Ciências", "São José dos Campo - SP","Curso atrasado em três semestres devido a trancamento e pandemia da covid-19",
-  "Universidade Federal do Pampa - UNIPAMPA", 2011, 2016, "Bacharel em Geofísica", "Caçapava do Sul - RS","Bolsista PIBIC (CNPq/Unipampa)",
+  "Universidade Federal do Pampa - UNIPAMPA", 2011, 2015, "Bacharel em Geofísica", "Caçapava do Sul - RS","Bolsista PIBIC (CNPq/Unipampa)",
   "SENAC - Jabaquara", 2006, 2008, "Técnico Ambiental", "São Paulo - SP",NA,
 )
 
@@ -88,9 +88,9 @@ aprendendo <- tribble(
 )
 
 habilidades <- tribble(
-  ~area, ~skills,
-  "Inglês", "Intermediário",
-  "\"Soft skills\"", "Adaptabilidade, Colaborativo, Boa comunicação"
+  ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "The English Studio","General English","Março", 2017,"Junho",2017, "Dublin - IRL","B1",
+#  "\"Soft skills\"","Adaptabilidade, Colaborativo, Boa comunicação"," "," "," "," "," "," "
 )
 
 Publicações <- tribble(

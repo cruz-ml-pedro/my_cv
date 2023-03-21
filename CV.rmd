@@ -115,10 +115,15 @@ aprendendo %>%
 
 ```{r HABILIDADES}
 habilidades %>% 
-  detailed_entries(
-    with = area,
-    what = skills
+   detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
   )
+
+
 ```
 
 
