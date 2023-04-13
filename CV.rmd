@@ -4,7 +4,7 @@ surname: Lima
 position: "Buscando oportunidade na área de dados"
 #date: "`r format(Sys.time(), '%B %Y')`"
 address: "São Paulo-SP, `r format(Sys.time(), '%B %Y')`"
-profilepic: "./img/me.png"
+profilepic: "./img/eu.png"
 phone: "(11) 9 7890-2956"
 email: "cruz.ml.pedro@gmail.com"
 github: cruz-ml-pedro
