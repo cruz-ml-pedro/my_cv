@@ -12,8 +12,8 @@ work <- tribble(
   "Freelancer", "Automatização de workflow", "Março", 2022, "Junho", 2022, "São Paulo - SP", "Criação de um blog para plublicação de comunicados internos, dúvidas frequentes e tutoriais.",
   
   
-  "Freelancer", "Projétos de automação", "Agosto", 2020, "Dezembro", 2020, "São Paulo - SP", "Linguagens e tecnologias usadas --- Arduino (C++), Diferentes Sensores",
-  "Freelancer", "Projétos de automação", "Agosto", 2020, "Dezembro", 2020, "São Paulo - SP", "Criação e implementação de sistemas estilo Garduino.",
+  "Autônomo", "Projétos de automação", "Agosto", 2020, "Dezembro", 2020, "São Paulo - SP", "Linguagens e tecnologias usadas --- Arduino (C++), Diferentes Sensores",
+  "Autônomo", "Projétos de automação", "Agosto", 2020, "Dezembro", 2020, "São Paulo - SP", "Criação e implementação de sistemas estilo Garduino.",
   
   "Geofísico Júnior", "Geodecon Geologia e Geofísica Ltda", "Janeiro", 2016, "Outubro", 2016, "Curitiba - PR", "Métodos aplicados --- Eletrorresistividade, Magnetometria, Sísmica rasa",
   "Geofísico Júnior", "Geodecon Geologia e Geofísica Ltda", "Janeiro", 2016, "Outubro", 2016, "Curitiba - PR", "Softwares usados --- Geosoft Oasis Montaj, Geometrics analysis softwares",
@@ -68,7 +68,7 @@ edu <- tribble(
   "Instituto Tecnológico de Aeronáutica - ITA", 2017, 2021, "Mestre em Ciências", "São José dos Campo - SP","Bolsista CAPES",
   "Instituto Tecnológico de Aeronáutica - ITA", 2017, 2021, "Mestre em Ciências", "São José dos Campo - SP","Curso atrasado em três semestres devido a trancamento e pandemia da covid-19",
   "Universidade Federal do Pampa - UNIPAMPA", 2011, 2015, "Bacharel em Geofísica", "Caçapava do Sul - RS","Bolsista PIBIC (CNPq/Unipampa)",
-  "SENAC - Jabaquara", 2006, 2008, "Técnico Ambiental", "São Paulo - SP",NA,
+  "SENAC - Jabaquara", 2007, 2008, "Técnico Ambiental", "São Paulo - SP",NA,
 )
 
 skills <- tribble(
