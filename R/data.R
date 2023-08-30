@@ -74,17 +74,22 @@ edu <- tribble(
 skills <- tribble(
   ~area, ~skills,
   "Linguagens de Programação", "R",
-  "Linguagens Markup","RMarkdown",
+  "Linguagens Markup","Quarto",
   "Web Framework", "Shiny",
   "Dados", "Spreadsheet"
 )
 
+basico <- tribble(
+  ~area, ~skills,
+  "Linguagens Markup","HTML, CSS",
+  "Outras Tecnologias", "Docker, Git, GitHub"
+)
+
 aprendendo <- tribble(
   ~area, ~skills,
-  "Linguagens de Programação", "Bash",
-  "Linguagens Markup","HTML, CSS",
+  "Linguagens de Programação", "Python",
   "Dados", "SQL, NoSQL",
-  "Outras Tecnologias", "Docker, Git, GitHub, Apache Spark"
+  "Outras Tecnologias", "Apache Spark"
 )
 
 habilidades <- tribble(

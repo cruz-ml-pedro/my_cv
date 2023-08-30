@@ -11,8 +11,8 @@ github: cruz-ml-pedro
 linkedin: pedro-lima-8a9356268
 #orcid: 0000-0002-2114-966X
 headcolor: 990000
-aboutme: " Durante o último ano tenho estudado linguagem R e outras tecnologias,  como Apache Spark e Docker, com foco em ciência de dados. Meu interesse está atualmente no framework de modelagem e machine learning Tidymodels, e nos aspectos exploratórios e preditivos da análise de dados funcionais. Possuo formação na área de geociências e conhecimento em séries temporais e dados geoespaciais."
-docname: Pedro_Lima_CV
+aboutme: "Tive a oportunidade de atuar em diversas áreas, onde participei da utilização estratégica de dados. Minha jornada incluiu modelagem ambiental, onde apliquei dados para analisar impactos ambientais e criar modelos de dispersão de contaminantes. Como geofísico, estive envolvido na modelagem de dados para mapeamentos do subsolo e na investigação da interação entre atividade solar, magnetosfera e ionosfera, em relação aos fenômenos climáticos. Recentemente, no campo da ciência de dados, conduzi análises e criei modelos para otimizar estratégias e maximizar resultados de tráfego pago."
+#docname: Pedro Lima
 output: vitae::awesomecv
 ---
   
@@ -100,7 +100,19 @@ skills %>%
 ```
 
 
-# Aprendendo
+# Tecnologias que sei o básico 
+```{r BASICO}
+
+basico %>% 
+   detailed_entries(
+    with = area,
+    what = skills
+  )
+
+```
+
+\pagebreak
+# Tecnologias que estou aprendendo
 ```{r APRENDENDO}
 
 aprendendo %>% 
