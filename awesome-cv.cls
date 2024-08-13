@@ -125,7 +125,7 @@
 % Gray-scale colors
 \definecolor{white}{HTML}{FFFFFF}
 \definecolor{black}{HTML}{000000}
-\definecolor{darkgray}{HTML}{333333}
+\definecolor{darkergray}{HTML}{666666}
 \definecolor{gray}{HTML}{5D5D5D}
 \definecolor{lightgray}{HTML}{999999}
 % Basic colors
@@ -138,7 +138,7 @@
 \definecolor{darktext}{HTML}{414141}
 \colorlet{text}{darkgray}
 \colorlet{graytext}{gray}
-\colorlet{lighttext}{lightgray}
+\colorlet{lighttext}{darkergray}
 % Awesome colors
 \definecolor{awesome-emerald}{HTML}{00A388}
 \definecolor{awesome-skyblue}{HTML}{0395DE}

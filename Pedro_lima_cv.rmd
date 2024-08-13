@@ -11,7 +11,7 @@ github: cruz-ml-pedro
 linkedin: pedro-lima-8a9356268
 #orcid: 0000-0002-2114-966X
 headcolor: 990000
-aboutme: "Tive a oportunidade de atuar em diversas áreas, onde participei da utilização estratégica de dados. Minha jornada incluiu modelagem ambiental, onde apliquei dados para analisar impactos ambientais e criar modelos de dispersão de contaminantes. Como geofísico, estive envolvido na modelagem de dados para mapeamentos do subsolo e na investigação da interação entre atividade solar, magnetosfera e ionosfera, em relação aos fenômenos climáticos. Recentemente, no campo da ciência de dados, conduzi análises e criei modelos para otimizar estratégias e maximizar resultados de tráfego pago."
+aboutme: "Programador especializado em R com experiência em modelagem matemática e ciência de dados. Iniciei minha carreira nas áreas de meio ambiente e geofísica, trabalhando com modelos analíticos, numéricos, estocásticos, de inversão e inferenciais. Também adquiri expertise em análise de séries temporais, incluindo técnicas de análise de sinais como análise de Fourier e Wavelets. Recentemente, minha atuação tem se concentrado na ciência de dados, com ênfase na criação de modelos de inteligência artificial, processos de ETL, web scraping e desenvolvimento de dashboards interativos."
 #docname: Pedro Lima
 output: vitae::awesomecv
 ---
@@ -53,7 +53,20 @@ work %>%
 
 ```
 
-\pagebreak
+# Formação Acadêmica
+
+```{r EDUCATION}
+
+edu %>%
+  detailed_entries(
+    with = inst,
+    what = degree,
+    why = detail,
+    when = glue::glue("{startYear} --> {endYear}",.na = ""),
+    where = where
+  )
+
+```
 
 # Experiência com pesquisa
 
@@ -65,23 +78,6 @@ research %>%
     what = unit,
     why = detail,
     when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
-    where = where
-  )
-
-
-```
-
-
-# Formação Acadêmica
-
-```{r EDUCATION}
-
-edu %>%
-  detailed_entries(
-    with = inst,
-    what = degree,
-    why = detail,
-    when = glue::glue("{startYear} --> {endYear}",.na = ""),
     where = where
   )
 
@@ -111,7 +107,7 @@ basico %>%
 
 ```
 
-\pagebreak
+
 # Tecnologias que estou aprendendo
 ```{r APRENDENDO}
 
