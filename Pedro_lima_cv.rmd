@@ -11,7 +11,7 @@ github: cruz-ml-pedro
 linkedin: pedro-lima-8a9356268
 #orcid: 0000-0002-2114-966X
 headcolor: 990000
-aboutme: "Programador especializado em R com experiência em modelagem matemática e ciência de dados. Iniciei minha carreira nas áreas de meio ambiente e geofísica, trabalhando com modelos analíticos, numéricos, estocásticos, de inversão e inferenciais. Também adquiri expertise em análise de séries temporais, incluindo técnicas de análise de sinais como análise de Fourier e Wavelets. Recentemente, minha atuação tem se concentrado na ciência de dados, com ênfase na criação de modelos de inteligência artificial, processos de ETL, web scraping e desenvolvimento de dashboards interativos."
+aboutme: "Cientista de Dados com expertise em análise de dados, modelagem inferencial e desenvolvimento de soluções orientadas por dados. Especializado em R, possuo também conhecimento em tecnologias como SQL, Docker e Python. Iniciei minha carreira nas áreas ambiental e de geofísica (aplicada e geoespacial), trabalhando com diferentes tipos de dados e técnicas de modelagem. Recentemente, minha atuação tem se concentrado na criação de modelos de machine learning, processos de ETL, web scraping e desenvolvimento de dashboards interativos para visualização de dados."
 #docname: Pedro Lima
 output: vitae::awesomecv
 ---
@@ -38,11 +38,24 @@ source(file = here("r","data.r"))
 
 ```
 
+
+# Tecnologias
+
+```{r SKILLS}
+
+skills |> 
+  detailed_entries(
+    with = area,
+    what = skills
+  )
+
+```
+
 # Experiência Profissional
 
 ```{r EMPLOYMENT}
 
-work %>%
+work |> 
   detailed_entries(
     with = title,
     what = unit,
@@ -53,11 +66,30 @@ work %>%
 
 ```
 
+
+# Experiência com pesquisa
+
+```{r EXP PESQUISA}
+
+research |>  
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    where = where
+  )
+
+```
+
+<br>
+<br>  
+
 # Formação Acadêmica
 
 ```{r EDUCATION}
 
-edu %>%
+edu |> 
   detailed_entries(
     with = inst,
     what = degree,
@@ -68,56 +100,7 @@ edu %>%
 
 ```
 
-# Experiência com pesquisa
 
-```{r EXP PESQUISA}
-
-research %>% 
-  detailed_entries(
-    with = title,
-    what = unit,
-    why = detail,
-    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
-    where = where
-  )
-
-```
-
-# Tecnologias
-
-```{r SKILLS}
-
-skills %>%
-  detailed_entries(
-    with = area,
-    what = skills
-  )
-
-```
-
-
-# Tecnologias que sei o básico 
-```{r BASICO}
-
-basico %>% 
-   detailed_entries(
-    with = area,
-    what = skills
-  )
-
-```
-
-
-# Tecnologias que estou aprendendo
-```{r APRENDENDO}
-
-aprendendo %>% 
-   detailed_entries(
-    with = area,
-    what = skills
-  )
-
-```
 
 # Habilidades e Competências
 
@@ -139,7 +122,7 @@ habilidades %>%
 
 ```{r WORKS}
 
-Publicações %>%
+Publicações |> 
   detailed_entries(
     with = area,
     what = accomplishment,
